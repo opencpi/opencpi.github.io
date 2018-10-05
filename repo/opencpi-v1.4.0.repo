@@ -1,0 +1,7 @@
+[opencpi-v1.4.0]
+name=OpenCPI-v1.4.0
+baseurl=http://opencpi.github.io/repo/v1.4.0/centos$releasever
+cost=10000
+enabled=1
+gpgcheck=0
+skip_if_unavailable=1
