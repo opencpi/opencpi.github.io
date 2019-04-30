@@ -1,6 +1,6 @@
 This directory is a place to put all release content that is meant to be accessed as web content.
-THe content for each release is in its own directory.  This could be done with git branches etc., but
-github does not support accessing web content beyond a single branch.
+The content for each release is in its own directory.  This could be done with git branches etc., but
+github does not support accessing web content beyond a single branch, so we master.
 
 We have a "latest" symlink here, and we have the symlink for the top-level index.html pointing to
 "releases/latest/index.html.
