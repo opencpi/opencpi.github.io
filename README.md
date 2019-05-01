@@ -1,5 +1,5 @@
 Original repo layout:
- * `/`` (pdfs)
+ * `/` (pdfs)
  * `assets/` (pdfs)
  * `bsp_e310/` (pdfs)
  * `core/` (pdfs)
