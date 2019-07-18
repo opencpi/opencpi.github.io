@@ -3,9 +3,22 @@
 <title>OpenCPI RPMs</title>
 </header>
 <body>
-  <h4>Yum repositories</h4>
+  <h3>Notice</h3>
+  More details can be found in the <i><a href="https://opencpi.github.io/releases/latest/doc/RPM_Installation_Guide.pdf">RPM Installation Guide</a></i>.
+
+  <h3>Prerequisites</h3>
+  Before installing following the commands below, you will need EPEL enabled:
+  <ul><li><tt>yum install epel-release</tt></li></ul>
+
+  <h3>Yum repositories</h3>
   <a href="opencpi-v1.5.0.repo">opencpi-v1.5.0.repo</a> - Copy to <tt>/etc/yum.repos.d/</tt> as root user and then <tt>yum install opencpi</tt> or <tt>yum install 'opencpi-*'</tt>.<br/>
   <a href="opencpi-v1.4.0.repo">opencpi-v1.4.0.repo</a> - Copy to <tt>/etc/yum.repos.d/</tt> as root user and then <tt>yum install opencpi</tt> or <tt>yum install 'opencpi-*'</tt>.<br/>
   <a href="opencpi-v1.3.1.repo">opencpi-v1.3.1.repo</a> - Copy to <tt>/etc/yum.repos.d/</tt> as root user and then <tt>yum install opencpi</tt> or <tt>yum install opencpi-devel 'ocpi-prereq-*'</tt>.<br/>
+
+  <h3>Example</h3>
+  This example works for 1.4 and later, always pulling the current version.<br/>
+  <ul><li>
+    <tt>cd /etc/yum.repos.d/ &amp;&amp; curl -O http://opencpi.github.io/repo/opencpi.repo &amp;&amp; yum install -y epel-release &amp;&amp; yum install -y 'opencpi-*'</tt>
+  </li></ul>
 </body>
 </html>
